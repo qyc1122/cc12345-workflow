@@ -1,0 +1,25 @@
+{
+  "name": "cc12345-workflow",
+  "version": "0.1.0",
+  "description": "面向 Codex 的 cc12345 仓库协作插件，提供协作模板与 web-harness 工作流技能",
+  "author": {
+    "name": "cc12345",
+    "url": "https://github.com/cc12345"
+  },
+  "homepage": "https://github.com/cc12345/cc12345-ai-workflow",
+  "repository": "https://github.com/cc12345/cc12345-ai-workflow",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "cc12345 Workflow",
+    "shortDescription": "面向仓库协作的 cc12345 工作流插件",
+    "longDescription": "cc12345 Workflow 是一个面向 Codex 的仓库协作插件，用于帮助团队建立统一的 AI 协作规范、文档结构和任务流程。",
+    "developerName": "cc12345",
+    "category": "工具",
+    "capabilities": [
+      "仓库协作",
+      "模板管理"
+    ],
+    "websiteURL": "https://github.com/cc12345/cc12345-ai-workflow",
+    "defaultPrompt": "把 cc12345 Workflow 的协作模板接入当前仓库"
+  }
+}
